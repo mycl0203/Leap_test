@@ -1,2 +1,5 @@
 1.现有目录中初始化仓库：git init(此时创建了一个.git的隐藏文件)
-2.查看文件状态：git status
+2.查看文件状态：git status(git status -s和git status --short)
+3.添加跟踪：git add +文件全名
+4.提交更新：git commit -m   后面如果要添加备注消息，则：git commit -m "备注信息"
+5.修改的文件提交到暂存区中:git add 文件名   出现一个绿色的modified
