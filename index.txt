@@ -4,4 +4,4 @@
 4.提交更新：git commit -m   后面如果要添加备注消息，则：git commit -m "备注信息"
 5.修改的文件提交到暂存区中:git add 文件名   出现一个绿色的modified
 6.提交已暂存的文件：git commit -m ""
-7.撤销对文件的修改：
+7.撤销对文件的修改：git checkout -- 文件名
