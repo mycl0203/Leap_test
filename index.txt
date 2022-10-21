@@ -9,4 +9,5 @@
 9.取消暂存的文件:git reset HEAD 要移除文件的名称
 10.移除暂存区所有的文件：git reset HEAD .
 11.跳过使用暂存区直接提交到git仓库中
-12.从git仓库中移除文件：1.从gti仓库和工作区中同时移除：git rm-f 文件名；2.只从git仓库中移除某一个文件：gitbrm--cached 文件名
+12.从git仓库中移除文件：1.从gti仓库和工作区中同时移除：git rm-f 文件名；2.只从git仓库中移除某一个文件：git rm --cached 文件名
+13.忽略文件：
